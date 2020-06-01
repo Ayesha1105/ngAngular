@@ -1,0 +1,19 @@
+/* li {
+  background-color: #944141;
+  color: white;
+  border-radius: 7px 10px 14px;
+  box-shadow: 6px 16px 10px #4c2e32;
+  display: inline-block;
+  margin: 15px;
+  width: 26%;
+}
+
+blockquote {
+  background-color: bisque;
+} */
+.section-search input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  width: 90% !important;
+  border: #f4f4f4 3px solid !important;
+}

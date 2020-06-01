@@ -1,4 +1,57 @@
-<h1>{{ title }}</h1>
-<p *ngFor="let names of name">
-  {{ names }}
-</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6cf933f684.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Import materialize.css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body id="home" class="scrollspy">
+    <!--NAVBAR-->
+    <app-nav></app-nav>
+
+    <!--SECTION SLIDER-->
+    <app-slider></app-slider>
+
+    <!--SECTION SEARCH BAR-->
+    <app-search-bar></app-search-bar>
+
+    <!--ICON BOXES PRODUCTS-->
+    <app-product></app-product>
+
+    <!--POPULAR PLACES CARDS-->
+    <app-cards></app-cards>
+
+    <!--SECTION FOLLOW BANNER-->
+    <app-banner></app-banner>
+
+    <!--GALLERY-->
+    <app-gallery></app-gallery>
+
+    <!--CONTACT-->
+    <app-contact></app-contact>
+
+    <!--FOOTER-->
+    <app-footer></app-footer>
+
+    <!--FLOATING ACTION BUTTON-->
+    <app-buttons></app-buttons>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>

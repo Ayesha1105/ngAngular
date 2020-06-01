@@ -1,0 +1,24 @@
+{
+  "folders": [
+	{
+		"path": "D:\\newAngular"
+	},
+	{
+		"name": "ngAngular",
+		"path": "D:\\AngularFolder\\ngAngular"
+	},
+	{
+		"name": "ngKaran",
+		"path": "D:\\AngularFolder\\ngKaran"
+	},
+	{
+		"name": "ngAyeshaPackage",
+		"path": "D:\\AngularFolder\\ngAyeshaPackage"
+	},
+	{
+		"name": "ngDemoRepo",
+		"path": "D:\\AngularFolder\\ngDemoRepo"
+	}
+],
+  "settings": {}
+}
